@@ -1,0 +1,73 @@
+/* संपूर्ण पेजसाठी बेसिक सेटिंग */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* हेडर (शाळेचे नाव आणि टॅगलाइन) */
+header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+}
+
+/* नेव्हिगेशन बार */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #004d4d;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* सेक्शन (माहिती) */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+/* फूटर */
+footer {
+    background-color: #008080;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}

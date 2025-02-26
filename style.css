@@ -107,10 +107,20 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background-color 0.3s ease-in-out;
 }
 
-/* बटणवर माउस नेल्यावर रंग बदलेल */
 button:hover {
     background-color: #2980b9;
+}
+
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 15px 0;
+}
+
 }

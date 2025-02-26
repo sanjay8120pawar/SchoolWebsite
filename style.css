@@ -71,3 +71,46 @@ footer {
 .gallery img:hover {
     transform: scale(1.1);
 }
+/* पानाची पार्श्वभूमी (Background) */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* हेडिंगसाठी फॉन्ट आणि अ‍ॅनिमेशन */
+.fade-in {
+    font-size: 30px;
+    color: #2c3e50;
+    opacity: 0; /* सुरुवातीला हेडिंग दिसणार नाही */
+    animation: fadeIn 3s ease-in-out forwards;
+}
+
+/* फेड-इन अ‍ॅनिमेशन */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* बटण डिझाइन */
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* बटणवर माउस नेल्यावर रंग बदलेल */
+button:hover {
+    background-color: #2980b9;
+}
